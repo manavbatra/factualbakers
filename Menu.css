@@ -132,7 +132,7 @@ section h1{
 .cookie_item, .cake_item, .chocolate_item, .ice-cream_item, .cake-sticks_item, .brownie_item{
 	border: 1px solid #C0A891;
 	margin-top: 2rem;
-	display: inline-block;
+	display: inline-flex;
 
 }
 .item_des, .item_image{
@@ -255,20 +255,20 @@ section h1{
 .footer{
 	margin-top: 1rem;
 	background-color: #f4efe1;
-    text-align: center;
-    padding: 2rem;
-    display: flex;
-    justify-content: space-between;
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer_element{
 	display: inline-block;
-    padding-left: 3rem;
-    padding-right:3rem;
+  padding-left: 3rem;
+  padding-right:3rem;
 	text-align: center;
 	border-right: 2px dotted;
 }
 .footer_element:last-child{
-    border: none;
+  border: none;
 
 }
