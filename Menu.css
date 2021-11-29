@@ -129,7 +129,7 @@ section h1{
 	padding-bottom: 1rem;
 }
 
-.cookie_item, .cake_item, .chocolate_item, .ice-cream_item{
+.cookie_item, .cake_item, .chocolate_item, .ice-cream_item, .cake-sticks_item, .brownie_item{
 	border: 1px solid #C0A891;
 	margin-top: 2rem;
 	display: inline-block;
@@ -141,10 +141,15 @@ section h1{
 }
 
 
+.item_des h3{
+  max-width: 250px;
+}
+
 
 .block{
 	display: flex;
 	justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .modal {

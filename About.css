@@ -50,11 +50,25 @@ li a:hover:not(.active) {
 	height: auto;
 	margin-top: 3.125rem;
 	background-color: #f4efe1;
-    text-align: center;
-    padding-top: 3.125rem;
-    padding-bottom: 3.125rem;
+  text-align: center;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
     
  }
+
+button{
+  background-color: #e87330;
+  border-color: #e87330;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+button:hover{
+  border-color: red;
+  background-color: red;
+  border-width: 10px;
+  color: white;
+}
 
 .populars{
 	margin-top: 2rem;
