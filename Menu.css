@@ -130,7 +130,7 @@ section h1{
 }
 
 .cookie_item, .cake_item, .chocolate_item, .ice-cream_item, .cake-sticks_item, .brownie_item{
-	border: 1px solid #C0A891;
+	border: 2px solid #C0A891;
 	margin-top: 2rem;
 	display: inline-flex;
 
