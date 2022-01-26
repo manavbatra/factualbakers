@@ -109,6 +109,11 @@ html {
   padding: 10px 20px;
   color: black;
 }
+
+.menu_bar .container ul li a:hover{
+  background-color: #e05404;
+}
+
 .menu_bar .container ul li.active {
   background-color: #e87330;
   transition: 0.3s ease background-color;
