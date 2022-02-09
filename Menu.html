@@ -1,379 +1,222 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Menu</title>
-  <link rel="shortcut icon" type="image/x-icon" href="Images/tab_logo.png"/>
+  <title>Menu</title>
 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="Menu.css">
-  <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="img/tab_logo.png"/>
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
 <body>
-
-	<img src="Images/Logo.svg" class="image">
-
-  <nav>
-  <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a class="active" href="Menu.html">Menu</a></li>
-  <li><a href="Order.html">Order Online</a></li>
-  <li><a href="Contact.html">Contact</a></li>
-  <li><a href="About.html">About</a></li>
-  <li><a href="Cart.html">Cart</a></li>
-  </ul> 
+  <nav class="zone blue sticky">
+      <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="push"><a href="cart.html">Cart</a></li>
+  </ul>
   </nav>
 
-  <div class="menu_info">
-    <div class="menu">
-  <div id="heading">
-    <p><b>OUR MENU</b></p>
-  </div>
-  </div><br><br>
+  <div class="container"><img class="cover" src="./img/Logo.png"></div>
 
-  <nav class="menu_bar">
-  <div class="container">
-    <ul>
-      <li class="cookie active"><a href="#cookie">Cookies</a></li>
-      <li class="cake"><a href="#cake">Cake</a></li>
-      <li class="chocolate"><a href="#chocolate">Chocolates</a></li>
-      <li class="ice-cream"><a href="#ice-cream">Ice-Creams</a></li>
-      <li class="cake-stick"><a href="#cake-stick">Cake-Sticks</a></li>
-      <li class="brownie"><a href="#brownie">Brownies</a></li>
-    </ul>
-  </div>
-</nav>
+   <div class="contact_box">
+    <div id="heading">
+      <p><b>OUR MENU</b></p>
+    </div>
+   </div>
+
+   <nav class="menu zone blue sticky">
+    <div class="menu_container">
+      <ul>
+          <li class="cookie active"><a href="#cookie">Cookies</a></li>
+          <li class="cake"><a href="#cake">Cakes</a></li>
+          <li class="chocolate"><a href="#chocolate">Chocolates</a></li>
+          <li class="brownie"><a href="#brownie">Brownies</a></li>
+      </ul>
+    </div>
+  </nav>
+<!--------------------------------------------------COOKIES--------------------------------------------------------------------------->  
 <section id="cookie">
-  <h1>Cookies</h1>
+  <h1 style="border-bottom: 2px solid #093d73;">Cookies</h1>
+  <div class="zone blue grid-wrapper">
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+    <div class="box zone"><img src="Images/cookies/dcc.jpg"></div>
+    <div class="box zone"><img src="Images/cookies/dcc.jpg"></div>
+    <div class="box zone"><img src="Images/cookies/dcc.jpg"></div>
+    <div class="box zone"><img src="Images/cookies/dcc.jpg"></div>
+    <div class="box zone"><img src="Images/cookies/dcc.jpg"></div>
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h3>Whole Wheat Cookies</h3>
-    <p>This is an item on your menu. Give your item a brief description</p><br>
-    <p>Special Requests</p>
-    <form>
-      <input type="text" id="request" name="special_request" placeholder="Add them here. We'll do our best to make it happen." size="70rem" style="line-height: 4rem">
-    </form>
-    <hr><br>
-    <div class="buttons">
-      <div class="quantity buttons_added">
-        <input type="button" value="-" class="minus" style="width: 4rem; height: 2.5rem"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="" style="width: 4rem; height: 2.5rem"><input type="button" value="+" class="plus" style="width: 4rem; height: 2.5rem"></div>
-    <input type="button" name="add_to_cart" value="Add to my order " style="background-color: #e87330; width: 22.5rem; height: 2.5rem">
-    </div>
+    
+      <div class="box zone item_container">
+        <img class="pop_img" src="Images/cookies/wholewheat.jfif">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+      </div>
+      <div class="box zone item_container">
+        <img class="pop_img" src="Images/cookies/dcc.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+      </div>
+      <div class="box zone item_container">
+        <img class="pop_img" src="Images/cookies/home3.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+      </div>
+      <div class="box zone item_container">
+        <img class="pop_img" src="Images/cookies/redvelvet.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+      </div>
   </div>
-</div>
-
-<!------------------------------------------------------------COOKIES----------------------------------------------------->
-
-<div class="block">
-  <div class="cookie_item" id="myDiv">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Whole Wheat</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/cookies/wholewheat.jfif" height="200rem" width="180rem">
-    </div>
-  </div>
-  
-  <div class="cookie_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Double Chocolate Chip</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/cookies/dcc.jpg" height="200rem" width="180rem">
-    </div>
-  </div>
-
-  <div class="cookie_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Chocolate Chip</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/home3.jpg" height="200rem" width="180rem">
-    </div>
-  </div>
-
-  <div class="cookie_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Red Velvet</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/cookies/redvelvet.jpg" height="200rem" width="180rem">
-    </div>
-  </div>
-
-</div>
 </section>
 
-<!------------------------------------------------------------CAKES----------------------------------------------------->
+<!--------------------------------------------------CAKES---------------------------------------------------------------------------> 
 
 <section id="cake">
-  <h1>Cakes</h1>
-  <div class="block">
-  <div class="cake_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Red velvet</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
+  <h1 style="border-bottom: 2px solid #093d73;">Cakes</h1>
+  <div class="zone blue grid-wrapper">
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/cakes/redvelvet.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
     </div>
-    <div class="item_image">
-      <img src="Images/cakes/redvelvet.jpg" height="200rem" width="180rem">
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/cakes/triffle.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
     </div>
-  </div>
-  
-  <div class="cake_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Triffle</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/cakes/fruit.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
     </div>
-    <div class="item_image">
-      <img src="Images/cakes/triffle.jpg" height="200rem" width="180rem">
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/cakes/rasmalai.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
     </div>
-  </div>
-
-  <div class="cake_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Fruit</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/cakes/rainbow.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
     </div>
-    <div class="item_image">
-      <img src="Images/cakes/fruit.jpg" height="200rem" width="180rem">
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/cakes/almond.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
     </div>
-  </div>
-
-  <div class="cake_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Rasmalai</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/cakes/rasmalai.jpg" height="200rem" width="180rem">
-    </div>
-  </div>
-
-  <div class="cake_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Rainbow</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/cakes/rainbow.jpg" height="200rem" width="180rem">
-    </div>
-  </div>
-
-  <div class="cake_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Almond</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/cakes/almond.jpg" height="200rem" width="180rem">
-    </div>
-  </div>
-
-
-</div>
-</section>
-
-<!------------------------------------------------------------CHOCOLATES----------------------------------------------------->
-
-<section id="chocolate">
-  <h1>Chocolates</h1>
-  <div class="block">
-  <div class="chocolate_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Double Dark</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/about/5.jpg" height="200rem" width="180rem">
-    </div>
-  </div>
-  
-  <div class="chocolate_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Dark</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/about/7.jpg" height="200rem" width="180rem">
-    </div>
-  </div>
-</div>
-</section>
-
-<!------------------------------------------------------------ICE-CREAMS----------------------------------------------------->
-
-<section id="ice-cream">
-  <h1>Ice-Creams</h1>
-  <div class="block">
-  <div class="ice-cream_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Whole Wheat Cookie</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/about/8.jpg" height="200rem" width="180rem">
-    </div>
-  </div>
-  
-  <div class="ice-cream_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Whole Wheat Cookie</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/about/9.jpg" height="200rem" width="180rem">
-    </div>
-  </div>
-</div>
-</section>
-
-<!------------------------------------------------------------CAKE-STICKS----------------------------------------------------->   
-
-<section id="cake-stick">
-  <h1>Cake-Sticks</h1>
-  <div class="block">
-  <div class="cake-sticks_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Oreo</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/about/9.jpg" height="200rem" width="180rem">
-    </div>
-  </div>
-  
-  <div class="cake-sticks_item">
-    <div class="item_des">
-      <h3 style="font-size: 1.5rem">Red Velvet</h3>
-      <p>Give this item a brief description</p>
-      <p id="item_price">₹10.00/-</p>
-    </div>
-    <div class="item_image">
-      <img src="Images/about/9.jpg" height="200rem" width="180rem">
-    </div>
-  </div>
-</div>
-</section>
-
-
-<!------------------------------------------------------------BROWNIES-----------------------------------------------------> 
-
-<section id="brownie">
-  <h1>Brownies</h1>
-  <div class="block">
-    <div class="brownie_item">
-      <div class="item_des">
-        <h3 style="font-size: 1.5rem">Plain Chocolate</h3>
-        <p>Give this item a brief description</p>
-        <p id="item_price">₹10.00/-</p>
-      </div>
-    <div class="item_image">
-      <img src="Images/brownies/plainchocolate.jfif" height="200rem" width="180rem">
-    </div>
-    </div>
-  
-    <div class="brownie_item">
-      <div class="item_des">
-        <h3 style="font-size: 1.5rem">Walnut Fudge</h3>
-        <p>Give this item a brief description</p>
-        <p id="item_price">₹10.00/-</p>
-      </div>
-    <div class="item_image">
-      <img src="Images/brownies/walnutfudge.jfif" height="200rem" width="180rem">
-    </div>
-    </div>
-
-    <div class="brownie_item">
-      <div class="item_des">
-        <h3 style="font-size: 1.5rem">Oreo</h3>
-        <p>Give this item a brief description</p>
-        <p id="item_price">₹10.00/-</p>
-      </div>
-    <div class="item_image">
-      <img src="Images/brownies/oreo.jpg" height="200rem" width="180rem">
-    </div>
-    </div>
-
-    <div class="brownie_item">
-      <div class="item_des">
-        <h3 style="font-size: 1.5rem">Triple Chocolate</h3>
-        <p>Give this item a brief description</p>
-        <p id="item_price">₹10.00/-</p>
-      </div>
-    <div class="item_image">
-      <img src="Images/brownies/triplechocolate.jpg" height="200rem" width="180rem">
-    </div>
-    </div>
-
-  <div class="brownie_item">
-      <div class="item_des">
-        <h3 style="font-size: 1.5rem">Red Velvet</h3>
-        <p>Give this item a brief description</p>
-        <p id="item_price">₹10.00/-</p>
-      </div>
-    <div class="item_image">
-      <img src="Images/brownies/redvelvet.jpg" height="200rem" width="180rem">
-    </div>
-    </div>
-
   </div>
 </section>
 
-  </div>
+<!--------------------------------------------------CHOCOLATES---------------------------------------------------------------------------> 
 
-  <div class="footer">
-    <div class="footer_element">
-      <h4>ADDRESS</h4><br>
+    <section id="chocolate">
+  <h1 style="border-bottom: 2px solid #093d73;">Chocolates</h1>
+  <div class="zone blue grid-wrapper">
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/chocolates/4.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+    </div>
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/chocolates/5.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+    </div>
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/chocolates/6.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+    </div>
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/chocolates/7.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!--------------------------------------------------BROWNIES---------------------------------------------------------------------------> 
+
+    <section id="brownie">
+  <h1 style="border-bottom: 2px solid #093d73;">Brownies</h1>
+  <div class="zone blue grid-wrapper">
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/brownies/plainchocolate.jfif">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+    </div>
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/brownies/walnutfudge.jfif">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+    </div>
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/brownies/oreo.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+    </div>
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/brownies/triplechocolate.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+    </div>
+    <div class="box zone item_container">
+        <img class="pop_img" src="Images/brownies/redvelvet.jpg">
+        <div class="middle">
+          <div class="text">Description of the image</div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<br>
+  <footer class="zone yellow grid-wrapper">
+
+    <div>
+      <h4>ADDRESS</h4>
       <p>Rupnagar</p>
       <p>Punjab, India, 140001</p>
     </div>
-
-    <div class="footer_element">
-      <h4>HOURS</h4><br>
-      <p>Online Orders Only</p>
-    </div>
     
-    <div class="footer_element">
-      <h4>CONTACT</h4><br>
+    <div>
+      <h4>CONTACT</h4>
       <p>(+91)6283832924</p>
       <p>info@mysite.com</p>
     </div>
     
-    <div class="footer_element">
-      <h4>FOLLOW US</h4><br>
-      <a href="https://www.instagram.com/factual_bakers/"><img src="Images/insta.png" height="40px" width="45px"></a>
-      <img src="Images/facebook.png" height="40px" width="40px">
+    <div>
+      <h4>FOLLOW US</h4>
+      <a href="https://www.instagram.com/factual_bakers/"><img src="Images/insta.png" height="30px" width="35px"></a>
+      <img src="Images/facebook.png" height="30px" width="30px">
     </div>
-  </div>
 
+  </footer>
 
-  <script src="Menu.js"></script>
-
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="menu.js"></script>
 
 </body>
 </html>
